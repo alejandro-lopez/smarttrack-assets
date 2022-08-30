@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    id="smarttrack-assets"
+    version="1.0.0">
+
+    <name>ZeekMiAutoAssets</name>
+    <description>Sounds and graphic assets for Zeek Mi Auto</description>
+    <license>MIT</license>
+
+    <repo>https://github.com/alejandro-lopez/smarttrack-assets</repo>
+    <issue>https://github.com/alejandro-lopez/smarttrack-assets/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- ios -->
+	<platform name="ios">
+		<resource-file src="src/ios/Library/Sounds/modoalarma3.wav"/>
+		<resource-file src="src/ios/Library/Sounds/correct.wav"/>
+		<resource-file src="src/ios/Library/Sounds/correct.caf"/>
+		<resource-file src="src/ios/Library/Sounds/error.wav"/>
+		<resource-file src="src/ios/Library/Sounds/notificacion.wav"/>
+		<resource-file src="src/ios/Library/Sounds/recordatorio.wav"/>
+		<resource-file src="src/ios/Library/Sounds/modoalarma3.aiff"/>
+		<resource-file src="src/ios/Library/Sounds/modoalarma3.caf"/>
+	</platform>
+	<platform name="android">
+		<resource-file src="src/android/res/drawable/launcher_icon.png" target="res/drawable/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable/modoalarma.png" target="res/drawable/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-hdpi/launcher_icon.png" target="res/drawable-hdpi/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable-hdpi/modoalarma.png" target="res/drawable-hdpi/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-xhdpi/launcher_icon.png" target="res/drawable-xhdpi/launcher_icon.png"/>
+        <resource-file src="src/android/res/drawable-xxhdpi/launcher_icon.png" target="res/drawable-xxhdpi/launcher_icon.png"/>
+		<resource-file src="src/android/res/drawable-xhdpi/modoalarma.png" target="res/drawable-xhdpi/modoalarma.png"/>
+        <resource-file src="src/android/res/drawable-xxhdpi/modoalarma.png" target="res/drawable-xxhdpi/modoalarma.png"/>
+		<resource-file src="src/android/res/raw/beep.ogg" target="res/raw/beep.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma1.ogg" target="res/raw/modoalarma1.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma2.ogg" target="res/raw/modoalarma2.ogg"/>
+		<resource-file src="src/android/res/raw/modoalarma3.ogg" target="res/raw/modoalarma3.ogg"/>
+		
+		<resource-file src="src/android/res/raw/modoalarma1.mp3" target="res/raw/alarma1.mp3"/>
+		<resource-file src="src/android/res/raw/modoalarma2.mp3" target="res/raw/alarma2.mp3"/>
+		<resource-file src="src/android/res/raw/modoalarma3.mp3" target="res/raw/alarma3.mp3"/>
+		<resource-file src="src/android/res/raw/modoalarma3.wav" target="res/raw/alarma.wav"/>
+	</platform>
+</plugin>
